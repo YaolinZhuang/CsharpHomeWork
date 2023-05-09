@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A976ABC1-7F08-4BB7-8364-6B3E1EF5E775}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>C_作業</RootNamespace>
+    <AssemblyName>C#作業</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlackJack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlackJack.Designer.cs">
+      <DependentUpon>BlackJack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentGrade.Designer.cs">
+      <DependentUpon>StudentGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="小畫家.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="小畫家.Designer.cs">
+      <DependentUpon>小畫家.cs</DependentUpon>
+    </Compile>
+    <Compile Include="圈圈叉叉.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="圈圈叉叉.Designer.cs">
+      <DependentUpon>圈圈叉叉.cs</DependentUpon>
+    </Compile>
+    <Compile Include="本息平均攤還試算.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="本息平均攤還試算.Designer.cs">
+      <DependentUpon>本息平均攤還試算.cs</DependentUpon>
+    </Compile>
+    <Compile Include="猜數字.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="猜數字.Designer.cs">
+      <DependentUpon>猜數字.cs</DependentUpon>
+    </Compile>
+    <Compile Include="猜數字InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="猜數字InputBox.Designer.cs">
+      <DependentUpon>猜數字InputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="理財計算機.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>理財計算機.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="小算盤.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="小算盤.Designer.cs">
+      <DependentUpon>小算盤.cs</DependentUpon>
+    </Compile>
+    <Compile Include="學生成績.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="學生成績.Designer.cs">
+      <DependentUpon>學生成績.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pos.Designer.cs">
+      <DependentUpon>Pos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hello.designer.cs">
+      <DependentUpon>Hello.cs</DependentUpon>
+    </Compile>
+    <Compile Include="作業.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="作業.Designer.cs">
+      <DependentUpon>作業.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="螢幕保護程式.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="螢幕保護程式.Designer.cs">
+      <DependentUpon>螢幕保護程式.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BlackJack.resx">
+      <DependentUpon>BlackJack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pos.resx">
+      <DependentUpon>Pos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hello.resx">
+      <DependentUpon>Hello.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentGrade.resx">
+      <DependentUpon>StudentGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="作業.resx">
+      <DependentUpon>作業.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="圈圈叉叉.resx">
+      <DependentUpon>圈圈叉叉.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="學生成績.resx">
+      <DependentUpon>學生成績.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="小畫家.resx">
+      <DependentUpon>小畫家.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="小算盤.resx">
+      <DependentUpon>小算盤.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="本息平均攤還試算.resx">
+      <DependentUpon>本息平均攤還試算.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="猜數字.resx">
+      <DependentUpon>猜數字.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="猜數字InputBox.resx">
+      <DependentUpon>猜數字InputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="理財計算機.resx">
+      <DependentUpon>理財計算機.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="螢幕保護程式.resx">
+      <DependentUpon>螢幕保護程式.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokercard\pokercard - 捷徑.lnk" />
+    <None Include="Resources\RedGirl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\pokercard\0.jpg" />
+    <Content Include="Resources\pokercard\1.jpg" />
+    <Content Include="Resources\pokercard\10.jpg" />
+    <Content Include="Resources\pokercard\11.jpg" />
+    <Content Include="Resources\pokercard\12.jpg" />
+    <Content Include="Resources\pokercard\13.jpg" />
+    <Content Include="Resources\pokercard\14.jpg" />
+    <Content Include="Resources\pokercard\15.jpg" />
+    <Content Include="Resources\pokercard\16.jpg" />
+    <Content Include="Resources\pokercard\17.jpg" />
+    <Content Include="Resources\pokercard\18.jpg" />
+    <Content Include="Resources\pokercard\19.jpg" />
+    <Content Include="Resources\pokercard\2.jpg" />
+    <Content Include="Resources\pokercard\20.jpg" />
+    <Content Include="Resources\pokercard\21.jpg" />
+    <Content Include="Resources\pokercard\22.jpg" />
+    <Content Include="Resources\pokercard\23.jpg" />
+    <Content Include="Resources\pokercard\24.jpg" />
+    <Content Include="Resources\pokercard\25.jpg" />
+    <Content Include="Resources\pokercard\26.jpg" />
+    <Content Include="Resources\pokercard\27.jpg" />
+    <Content Include="Resources\pokercard\28.jpg" />
+    <Content Include="Resources\pokercard\29.jpg" />
+    <Content Include="Resources\pokercard\3.jpg" />
+    <Content Include="Resources\pokercard\30.jpg" />
+    <Content Include="Resources\pokercard\31.jpg" />
+    <Content Include="Resources\pokercard\32.jpg" />
+    <Content Include="Resources\pokercard\33.jpg" />
+    <Content Include="Resources\pokercard\34.jpg" />
+    <Content Include="Resources\pokercard\35.jpg" />
+    <Content Include="Resources\pokercard\36.jpg" />
+    <Content Include="Resources\pokercard\37.jpg" />
+    <Content Include="Resources\pokercard\38.jpg" />
+    <Content Include="Resources\pokercard\39.jpg" />
+    <Content Include="Resources\pokercard\4.jpg" />
+    <Content Include="Resources\pokercard\40.jpg" />
+    <Content Include="Resources\pokercard\41.jpg" />
+    <Content Include="Resources\pokercard\42.jpg" />
+    <Content Include="Resources\pokercard\43.jpg" />
+    <Content Include="Resources\pokercard\44.jpg" />
+    <Content Include="Resources\pokercard\45.jpg" />
+    <Content Include="Resources\pokercard\46.jpg" />
+    <Content Include="Resources\pokercard\47.jpg" />
+    <Content Include="Resources\pokercard\48.jpg" />
+    <Content Include="Resources\pokercard\49.jpg" />
+    <Content Include="Resources\pokercard\5.jpg" />
+    <Content Include="Resources\pokercard\50.jpg" />
+    <Content Include="Resources\pokercard\51.jpg" />
+    <Content Include="Resources\pokercard\52.jpg" />
+    <Content Include="Resources\pokercard\6.jpg" />
+    <Content Include="Resources\pokercard\7.jpg" />
+    <Content Include="Resources\pokercard\8.jpg" />
+    <Content Include="Resources\pokercard\9.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
